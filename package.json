@@ -1,5 +1,11 @@
 {
   "name": "Lightwork",
   "description": "so yeah i think its just lightwork",
-  "main": "server.js"
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.4"
+  }
 }
