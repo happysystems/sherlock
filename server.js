@@ -3,9 +3,9 @@ const app = express()
 const PORT = 3000
 
 app.get("/", (req, res) => {
-  // some code ig
+  res.sendFile(path.name(__dirname, "frontend", "home.html"));
 })
 
 app.listen(PORT, () => {
-  console.log("Server running!")
+  console.log("Server running!");
 })
